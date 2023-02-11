@@ -1,19 +1,84 @@
 {
-  "todos": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "users": [
+    {
+      "name": "Raj Rathore",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRch6CDHA9hqbe3GbIo6O0T-EWeIL7JJ8_cpQ&usqp=CAU",
+      "email": "the@123",
+      "Password": "123",
+      "id": 1
+    },
+    {
+      "name": "Raj Rathore",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRch6CDHA9hqbe3GbIo6O0T-EWeIL7JJ8_cpQ&usqp=CAU",
+      "email": "the@123",
+      "Password": "123",
+      "id": 2
+    }
   ],
-  "books": [
-       {
-	     "id":1,
-    "image_url": "https://m.media-amazon.com/images/I/5165He67NEL.jpg",
-    "book_name": "Harry Potter and the Philosopher's Stone",
-    "author": "J. K. Rowling",
-		"genre": "fiction",
-		"edition": "2021",
-		"publisher": "Bloomsbury",
-		"cost": 1299,
-		"borrowed": false
+  "blogs": [
+    {
+      "userName": "Raj Rathore",
+      "content": "raj",
+      "title": "raj",
+      "category": "Business",
+      "date": "2023-02-08",
+      "likes": 0,
+      "comments": [
+        {
+          "name": "Raj Rathore",
+          "date": 1676106972122,
+          "comment": "wrewqwweqsdas"
+        },
+        {
+          "name": "Raj Rathore",
+          "date": 1676106979042,
+          "comment": "ewqqwes"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "userName": "Raj Rathore",
+      "content": "1212",
+      "title": "12",
+      "category": "Business",
+      "date": "2023-02-02",
+      "likes": 0,
+      "comments": [],
+      "id": 2
+    },
+    {
+      "userName": "Raj Rathore",
+      "content": "121212",
+      "title": "1221",
+      "category": "Business",
+      "date": "2023-02-02",
+      "likes": 0,
+      "comments": [],
+      "id": 3
+    },
+    {
+      "userName": "Raj Rathore",
+      "content": "121212",
+      "title": "1221121",
+      "category": "Business",
+      "date": "2023-02-02",
+      "likes": 0,
+      "comments": [],
+      "id": 4
+    },
+    {
+      "userName": "Raj Rathore",
+      "content": "121212",
+      "title": "1221121",
+      "category": "Lifestyle",
+      "date": "2023-02-02",
+      "likes": 0,
+      "comments": [],
+      "id": 5
+    }
+  ],
+  "profile": {
+    "name": "typicode"
   }
-  ],
-  "profile": { "name": "typicode" }
 }
